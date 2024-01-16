@@ -19,5 +19,5 @@ jobs:
       - name: Commit 
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          file_pattern: "report.md"
+          file_pattern: "README.md"
           commit_message: Updated report with line counter
