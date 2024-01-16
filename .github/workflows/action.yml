@@ -1,0 +1,14 @@
+name: sample action
+
+on: push
+
+jobs:
+  hello-world:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4.1.1
+
+      - name: Use action.yml on current folder (starts docker)
+        uses: ./
