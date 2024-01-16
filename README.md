@@ -1,3 +1,3 @@
 # Report
 
-Your source code files have **4** lines of code.
+Your source code files have **7** lines of code.
